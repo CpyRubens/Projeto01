@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Goku';
-    src: url("/assets/fonts/Saiyan-Sans.ttf") format('truetype');
+    src: url("../fonts/Saiyan-Sans.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Goku';
+    font-family: 'Goku',Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
 
@@ -16,7 +16,7 @@ body{
     background-color: yellow;
 }
 header{
-    padding: 2rem;
+    padding: 1rem;
     background-color: aquamarine;
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +40,7 @@ main{
 main figure{
     width: 100%;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     padding: 1rem;
 }
 main figure img{
@@ -51,7 +51,7 @@ main figure figcaption{
     font-size: 1.5rem;
 }
 main figure button{
-    width: 25%;
+    width: 50%;
     cursor: pointer;
     border: 0;
     border-radius: 1rem;
