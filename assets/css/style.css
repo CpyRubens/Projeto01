@@ -16,7 +16,7 @@ body{
     background-color: yellow;
 }
 header{
-    padding: 1rem;
+    padding: 2rem;
     background-color: aquamarine;
     display: flex;
     justify-content: space-evenly;
